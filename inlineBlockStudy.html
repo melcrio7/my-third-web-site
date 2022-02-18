@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WEB1 - HTML</title>
+</head>
+<body>
+<h1><a href="index.html">WEB</a></h1>
+<ol>
+  <li><a href="1.html">HTML</a></li>
+  <li><a href="2.html">CSS</a></li>
+  <li><a href="3.html">Javascript</a></li>
+</ol>
+우리 하니는
+<strong>아주</strong>
+<p>냄새가 고약해
+</p>
+<p>하지만 귀엽지</p>
+<p style="color: #888;background-color:powderblue">
+  이 문단은 블록 레벨 요소입니다. 부모 요소와 구분할 수 있도록 배경 색을 입혔습니다.</p>
+<input type="text"></input>
+<div>다음 span은 <span class="highlight">인라인요소</span>로,
+  영향 범위의 시작과 끝을 알 수 있도록 배경색을 지정했습니다.
+</div>
+<div>다음 span도 인라인
+  <span style="background-color:#eeee33"> 요소인데</span>
+  <span id="paragraph">이게되나?</span>
+  <p>색이 같은지 비교해보는 차원에서 끄적여봤어요</p>
+</div>
+<dialog>
+  <p> hello everybody</p>
+</dialog>
+<h2>HTML</h2>
+<p><a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" title="html5 specification">The HyperText Markup Language, or HTML</a> is the standard markup language
+  for documents designed to be displayed in a web browser. It can be assisted by technologies such as
+  Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+
+  <strong><u>Web</u> browsers</strong> receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the
+  structure of a web page
+  semantically and originally included cues for the appearance of the document.
+</p>
+<img width="100%" src="coding.jpeg">
+<p style="margin-top:40px;">HTML elements are the building blocks of HTML pages.
+  With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting
+  structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as
+  and directly introduce content into the page.</p>
+
+<div id="division">Other tags such</div> as surround and provide information about document text and may include other tags as sub-elements.Browsers do not display the HTML tags, but use them to interpret
+the content of
+the page.
+HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of
+content. The World Wide Web Consortium (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS over explicit
+presentational HTML since 1997.[2] A form of HTML, known as HTML5, is used to display video and audio, primarily using the
+element, in collaboration with javascript.
+
+</body>
+</html>
+<style>
+  .highlight {
+    background-color: #ee3;
+  }
+
+  #paragraph {
+    background-color: #EEEE3340;
+  }
+
+  #para {
+    background-color: violet;
+    color: blueviolet;
+    display: block;
+  }
+  #division{
+    background-color: gray;
+    display: inline-flex;
+  }
+  .container {
+    width:200px;
+    height:200px;
+    display: inline-block;
+  }
+</style>
+<div>
+  <body>
+  <span>
+    <span id="para">body 밖에다 블록레벨 글쓰기</span>
+  </span>
+  </body>
+</div>
+<div class="container">
+  <p>I’m inside of a flex container!</p>
+  <p>A flex container’s children are flex items!</p>
+</div>
+<div class="container">
+  <p>I’m also a flex item!</p>
+  <p>Me too!</p>
+</div>
